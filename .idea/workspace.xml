@@ -4,12 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5386e659-0674-4d98-b46d-af462abbe178" name="Changes" comment="new module4">
-      <change afterPath="$PROJECT_DIR$/helloapp/src/edu.bupt.hello/hello.java" afterDir="false" />
+    <list default="true" id="5386e659-0674-4d98-b46d-af462abbe178" name="Changes" comment="new class hello">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helloapp/src/edu.bupt.hello/Arraylistdemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helloapp/src/edu.bupt.operate/Assignment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helloapp/src/edu.bupt.operate/BreakandContinue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helloapp/src/edu.bupt.operate/Endlessloop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helloapp/src/edu.bupt.operate/IfandSwitch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helloapp/src/edu.bupt.operate/NestedLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helloapp/src/edu.bupt.operate/RandomGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helloapp/src/edu.bupt.operate/SumsLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helloapp/src/edu.bupt.operate/Ternaryoperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helloapp/src/edu.bupt.operate/detech123.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helloapp/src/edu.bupt.operate/plusplus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/ttt/eee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloapp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/helloapp/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helloapp/src/edu.bupt.hello/hello.java" beforeDir="false" afterPath="$PROJECT_DIR$/helloapp/src/edu.bupt.hello/hello.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadays20.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javadays20.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/module2/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,16 +63,48 @@
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "17",
     "last_opened_file_path": "D:/IDEA/IdeaProjects/javadays20",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.General"
+    "settings.editor.selected.configurable": "preferences.editor"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="hello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hello" />
+  <component name="RunManager" selected="Application.BreakandContinue">
+    <configuration name="BreakandContinue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BreakandContinue" />
+      <module name="helloapp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Endlessloop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Endlessloop" />
+      <module name="helloapp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NestedLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NestedLoop" />
+      <module name="helloapp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RandomGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RandomGame" />
+      <module name="helloapp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SumsLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SumsLoop" />
       <module name="helloapp" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -63,7 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.hello" />
+        <item itemvalue="Application.BreakandContinue" />
+        <item itemvalue="Application.RandomGame" />
+        <item itemvalue="Application.NestedLoop" />
+        <item itemvalue="Application.Endlessloop" />
+        <item itemvalue="Application.SumsLoop" />
       </list>
     </recent_temporary>
   </component>
@@ -75,7 +128,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665297971220</updated>
-      <workItem from="1665298303922" duration="4360000" />
+      <workItem from="1665298303922" duration="23461000" />
+      <workItem from="1665458675238" duration="8016000" />
     </task>
     <task id="LOCAL-00001" summary="new module4">
       <created>1665299595069</created>
@@ -84,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665299595069</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="new class hello">
+      <created>1665302717489</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1665302717489</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,10 +165,14 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="new module4" />
-    <option name="LAST_COMMIT_MESSAGE" value="new module4" />
+    <MESSAGE value="new class hello" />
+    <option name="LAST_COMMIT_MESSAGE" value="new class hello" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/javadays20$SumsLoop.ic" NAME="SumsLoop Coverage Results" MODIFIED="1665388343913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
