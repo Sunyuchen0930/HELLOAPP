@@ -2,6 +2,8 @@ import java.util.ArrayList;
 import java.util.Random;
 import java.util.Scanner;
 
+
+//错误：卡号登录，而不是用户名登录
 public class Atmmachine {
     public static void main(String[] args) {
         ArrayList <Account> accounts = new ArrayList<>();
@@ -14,7 +16,7 @@ public class Atmmachine {
             if (accounts.size()!=0) {
                 for (int i = 0; i < accounts.size(); i++) {
                     if(accounts.get(i)!=null){
-                        System.out.println("现在已经有用户"+accounts.get(i).getName());
+                        System.out.println("现在已经有用户"+accounts.get(i).getNums());
                     }
                 }
             }
@@ -26,11 +28,13 @@ public class Atmmachine {
 
             switch(opt){
                 case 1 :
-                    login(input,accounts);
+                    if(login(input,accounts)){
+                    System.out.println("----------------欢迎进入ATM内部操作页面------------------------");
+                }
                     break;
                 case 2 :
                     if (register(input,accounts)){
-                        System.out.println("注册成功");
+                        login(input,accounts);
                     }
                     break;
                 default :
@@ -59,23 +63,22 @@ public class Atmmachine {
             }
         }
     }
-
     public static boolean login(Scanner input,ArrayList<Account> accounts){
         boolean flag = true;
         int count = 3;
-        System.out.println("请登录：请输入你的用户名");
-        String name = input.next();
-        System.out.println("你的用户名是"+name);
+        System.out.println("请登录：请输入你的卡号");
+        String nums = input.next();
+
         OFF:
         if (accounts.size()!=0) {
             for (int i=0 ; i<accounts.size();i++) {
-                if(accounts.get(i).getName().equals(name)){
+                if(accounts.get(i).getNums().equals(nums)){
                     while (count>0) {
                         System.out.println("请输入你的密码");
                         String pass = input.next();
 
                         if(accounts.get(i).getPassword().equals(pass)){
-                            System.out.println("登录成功");
+                            System.out.println("登录成功，欢迎你"+accounts.get(i).getName());
                             flag = true;
                             break OFF;
                         }
@@ -102,7 +105,6 @@ public class Atmmachine {
         }
         return flag;
     }
-
     public static String RandomCardid(ArrayList<Account> accounts){
         Random rands = new Random();
         String datas = "0123456789";
@@ -137,31 +139,44 @@ public class Atmmachine {
                 return true;
             }
         }
-        System.out.println("您的用户名是"+name);
         return false;
     }
     public static boolean createAccount(ArrayList<Account> accounts,Scanner input,String name){
         Account a1 = new Account();
-
+        boolean passed = false;
         a1.setName(name);
-        boolean iflogin = false;
-        System.out.println("请输入你的密码");
-        String pass = input.next();
+        int count = 3;
+        while (count>0) {
+            System.out.println("请输入你的密码");
+            String pass = input.next();
 
-        a1.setPassword(pass);
-        System.out.println("请确认一次密码");
-        String pass1 = input.next();
-        if(pass1.equals(a1.getPassword())){
-            System.out.println("正在生成你的卡号");
-            a1.setNums(RandomCardid(accounts));
-            a1.setCatchlimit(0);
-            a1.setRestmoney(0);
-            accounts.add(a1);
+            a1.setPassword(pass);
+            System.out.println("请确认一次密码");
+            String pass1 = input.next();
+            if(pass1.equals(a1.getPassword())){
+                System.out.println("正在生成你的卡号");
+                a1.setNums(RandomCardid(accounts));
+                a1.setCatchlimit(0);
+                a1.setRestmoney(0);
+                accounts.add(a1);
 
-            System.out.println("注册成功!!您的卡号是"+a1.getNums()+",用户名是"+a1.getName()+",请登录");
-            System.out.println("现在有多少个用户："+accounts.size());
-            iflogin = login(input,accounts);
+                System.out.println("注册成功!!您的卡号是"+a1.getNums()+",用户名是"+a1.getName()+",请登录");
+                System.out.println("现在有多少个用户："+accounts.size());
+                passed = true;
+                break;
+            }
+
+            else {
+                System.out.println("确认密码失败，你还有"+(count-1)+"次机会，请重新输入密码");
+                passed = false;
+                count--;
+            }
+
         }
-        return iflogin;
+        if(count==0){
+            System.out.println("您机会用完，请稍后再来");
+        }
+        return passed;
+
     }
 }

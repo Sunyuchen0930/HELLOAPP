@@ -4,18 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5386e659-0674-4d98-b46d-af462abbe178" name="Changes" comment="面向对象04购物车finished">
-      <change afterPath="$PROJECT_DIR$/helloapp/src/edu.bupt.Stringvcode/Login3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helloapp/src/edu.bupt.Stringvcode/Shieldingnumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helloapp/src/edu.bupt.Stringvcode/Vericode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helloapp/src/edu.bupt.arraylist/Showmovies.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helloapp/src/edu.bupt.atm/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helloapp/src/edu.bupt.atm/Atmmachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helloapp/src/edu.bupt.movieoop/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helloapp/src/edu.bupt.movieoop/ShowMovie.java" afterDir="false" />
+    <list default="true" id="5386e659-0674-4d98-b46d-af462abbe178" name="Changes" comment="ATM:login and register">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloapp/src/edu.bupt.carts/Oopcart.java" beforeDir="false" afterPath="$PROJECT_DIR$/helloapp/src/edu.bupt.carts/Oopcart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloapp/src/edu.bupt.carts/Shopgoods.java" beforeDir="false" afterPath="$PROJECT_DIR$/helloapp/src/edu.bupt.carts/Shopgoods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helloapp/src/edu.bupt.atm/Atmmachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/helloapp/src/edu.bupt.atm/Atmmachine.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +112,7 @@
       <workItem from="1665458675238" duration="13812000" />
       <workItem from="1665485813233" duration="57659000" />
       <workItem from="1667537300001" duration="14436000" />
-      <workItem from="1667716555649" duration="19720000" />
+      <workItem from="1667716555649" duration="21883000" />
     </task>
     <task id="LOCAL-00001" summary="new module4">
       <created>1665299595069</created>
@@ -151,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667541628419</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="ATM:login and register">
+      <created>1667785122941</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1667785122941</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,18 +172,8 @@
     <MESSAGE value="new class hello" />
     <MESSAGE value="0-46finished" />
     <MESSAGE value="面向对象04购物车finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="面向对象04购物车finished" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/helloapp/src/edu.bupt.atm/Atmmachine.java</url>
-          <line>65</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="ATM:login and register" />
+    <option name="LAST_COMMIT_MESSAGE" value="ATM:login and register" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
