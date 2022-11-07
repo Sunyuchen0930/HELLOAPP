@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5386e659-0674-4d98-b46d-af462abbe178" name="Changes" comment="ATM:login and register">
+    <list default="true" id="5386e659-0674-4d98-b46d-af462abbe178" name="Changes" comment="ATM:modified login by cardid and limit times of password error">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helloapp/src/edu.bupt.atm/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/helloapp/src/edu.bupt.atm/Account.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/helloapp/src/edu.bupt.atm/Atmmachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/helloapp/src/edu.bupt.atm/Atmmachine.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -112,7 +113,7 @@
       <workItem from="1665458675238" duration="13812000" />
       <workItem from="1665485813233" duration="57659000" />
       <workItem from="1667537300001" duration="14436000" />
-      <workItem from="1667716555649" duration="21883000" />
+      <workItem from="1667716555649" duration="37891000" />
     </task>
     <task id="LOCAL-00001" summary="new module4">
       <created>1665299595069</created>
@@ -149,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667785122941</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="ATM:modified login by cardid and limit times of password error">
+      <created>1667787161496</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1667787161496</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,7 +181,8 @@
     <MESSAGE value="0-46finished" />
     <MESSAGE value="面向对象04购物车finished" />
     <MESSAGE value="ATM:login and register" />
-    <option name="LAST_COMMIT_MESSAGE" value="ATM:login and register" />
+    <MESSAGE value="ATM:modified login by cardid and limit times of password error" />
+    <option name="LAST_COMMIT_MESSAGE" value="ATM:modified login by cardid and limit times of password error" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -5,6 +5,18 @@ public class Account {
     private double restmoney;
     private double catchlimit;
 
+
+    public int getSex() {
+        return sex;
+    }
+
+    public void setSex(int sex) {
+        this.sex = sex;
+    }
+
+    private int sex;//0为女，1为男
+
+
     public String getPassword() {
         return password;
     }
@@ -51,6 +63,7 @@ public class Account {
     }
 
     public double getCatchlimit() {
+        catchlimit = 3000;
         return catchlimit;
     }
 
