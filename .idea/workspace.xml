@@ -4,34 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5386e659-0674-4d98-b46d-af462abbe178" name="Changes" comment="0-46finished">
-      <change afterPath="$PROJECT_DIR$/helloapp/src/edu.bupt.arrayapp/BadBubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helloapp/src/edu.bupt.arrayapp/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helloapp/src/edu.bupt.arrayapp/Maxarrvalue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helloapp/src/edu.bupt.arrayapp/RandGameArrayVerision.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helloapp/src/edu.bupt.arrayapp/RandSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helloapp/src/edu.bupt.arrayapp/demo1create.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helloapp/src/edu.bupt.badshoppingcart/Cart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helloapp/src/edu.bupt.badshoppingcart/Goods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helloapp/src/edu.bupt.carts/Oopcart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helloapp/src/edu.bupt.carts/Shopgoods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helloapp/src/edu.bupt.goodshoppingcart/Cartgood.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helloapp/src/edu.bupt.hello/helloworld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helloapp/src/edu.bupt.methods/BadDoubleBalls.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helloapp/src/edu.bupt.methods/BuyTickets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helloapp/src/edu.bupt.methods/CreatemethodsinClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helloapp/src/edu.bupt.methods/Encryption.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helloapp/src/edu.bupt.methods/FindPrime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helloapp/src/edu.bupt.methods/GoodDoubleBalls.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helloapp/src/edu.bupt.methods/JudgeScore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helloapp/src/edu.bupt.methods/MethodExemples.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helloapp/src/edu.bupt.methods/MethodsOverload.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helloapp/src/edu.bupt.methods/VerificationCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helloapp/src/edu.bupt.objectoriented/carmain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helloapp/src/edu.bupt.objectoriented/ooptest.java" afterDir="false" />
+    <list default="true" id="5386e659-0674-4d98-b46d-af462abbe178" name="Changes" comment="面向对象04购物车finished">
+      <change afterPath="$PROJECT_DIR$/helloapp/src/edu.bupt.Stringvcode/Login3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helloapp/src/edu.bupt.Stringvcode/Shieldingnumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helloapp/src/edu.bupt.Stringvcode/Vericode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helloapp/src/edu.bupt.arraylist/Showmovies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helloapp/src/edu.bupt.atm/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helloapp/src/edu.bupt.atm/Atmmachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helloapp/src/edu.bupt.movieoop/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helloapp/src/edu.bupt.movieoop/ShowMovie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloapp/src/edu.bupt.hello/Arraylistdemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadays20.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javadays20.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helloapp/src/edu.bupt.carts/Oopcart.java" beforeDir="false" afterPath="$PROJECT_DIR$/helloapp/src/edu.bupt.carts/Oopcart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helloapp/src/edu.bupt.carts/Shopgoods.java" beforeDir="false" afterPath="$PROJECT_DIR$/helloapp/src/edu.bupt.carts/Shopgoods.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,37 +63,37 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Oopcart">
-    <configuration name="Cart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Cart" />
+  <component name="RunManager" selected="Application.Atmmachine">
+    <configuration name="Atmmachine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Atmmachine" />
       <module name="helloapp" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Cartgood" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Cartgood" />
+    <configuration name="Login3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Login3" />
       <module name="helloapp" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GoodDoubleBalls" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GoodDoubleBalls" />
+    <configuration name="Shieldingnumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Shieldingnumber" />
       <module name="helloapp" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Oopcart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Oopcart" />
+    <configuration name="Showmovies" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Showmovies" />
       <module name="helloapp" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="carmain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="carmain" />
+    <configuration name="Vericode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Vericode" />
       <module name="helloapp" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -117,11 +101,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Oopcart" />
-        <item itemvalue="Application.Cartgood" />
-        <item itemvalue="Application.Cart" />
-        <item itemvalue="Application.carmain" />
-        <item itemvalue="Application.GoodDoubleBalls" />
+        <item itemvalue="Application.Atmmachine" />
+        <item itemvalue="Application.Showmovies" />
+        <item itemvalue="Application.Shieldingnumber" />
+        <item itemvalue="Application.Login3" />
+        <item itemvalue="Application.Vericode" />
       </list>
     </recent_temporary>
   </component>
@@ -136,7 +120,8 @@
       <workItem from="1665298303922" duration="23461000" />
       <workItem from="1665458675238" duration="13812000" />
       <workItem from="1665485813233" duration="57659000" />
-      <workItem from="1667537300001" duration="4249000" />
+      <workItem from="1667537300001" duration="14436000" />
+      <workItem from="1667716555649" duration="19720000" />
     </task>
     <task id="LOCAL-00001" summary="new module4">
       <created>1665299595069</created>
@@ -159,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665475571208</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="面向对象04购物车finished">
+      <created>1667541628419</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1667541628419</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,7 +173,19 @@
     <MESSAGE value="new module4" />
     <MESSAGE value="new class hello" />
     <MESSAGE value="0-46finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="0-46finished" />
+    <MESSAGE value="面向对象04购物车finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="面向对象04购物车finished" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/helloapp/src/edu.bupt.atm/Atmmachine.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
